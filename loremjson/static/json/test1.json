@@ -1,0 +1,28 @@
+{
+    "widget": {
+        "debug": "on",
+        "window": {
+            "title": "John 1:1",
+            "name": "main_window",
+            "width": 777,
+            "height": 777
+        },
+        "images": [
+            {
+                "src": "http://lorempixel.com/g/400/200/",
+                "alignment": "center"
+            },
+            {
+                "src": "http://lorempixel.com/g/300/200/",
+                "alignment": "left"
+            }
+        ],
+        "text": {
+            "data": "Click Here",
+            "size": 36,
+            "style": "bold",
+            "name": "text1",
+            "alignment": "center"
+        }
+    }
+}

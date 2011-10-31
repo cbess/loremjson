@@ -1,0 +1,18 @@
+{% extends "base.tpl" %}
+
+{% block content %}
+  <p>
+    <strong>Lorem JSON</strong> provides adhoc and test JSON file hosting.
+  </p>
+  
+  <ul>Sample JSON
+    {% for item in items %}
+    <li><a href="{{ item }}">{{ item }}</a></li>
+    {% endfor %}
+  </ul>
+  
+  <ul>Resources:
+    <li><a href="http://json.org/">JSON</a></li>
+    <li><a href="http://jsonlint.com/">JSONLint</a></li>
+  </ul>
+{% endblock %}

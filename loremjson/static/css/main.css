@@ -1,0 +1,20 @@
+.clear {
+    clear: both;
+}
+html body {
+    margin: 8px;
+    font-size: 15px;
+}
+#content {
+    width: 550px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: blue;
+}
