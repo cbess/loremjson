@@ -1,5 +1,9 @@
 ## Lorem JSON
 
+[Lorem JSON](http://loremjson.appspot.com/)
+
+[http://loremjson.appspot.com/json/test1.json](http://loremjson.appspot.com/json/test1.json)
+
 Simple JSON file hosting web app.
 
 * AppEngine Flask app
