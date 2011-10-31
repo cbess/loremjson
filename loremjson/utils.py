@@ -7,12 +7,14 @@ from pdb import set_trace
 def read_file(path, encoding='utf-8'):
     """Reads the file at the target path.
     """
-    with codecs.open(path, "r", encoding=encoding) as f:
-        try:
-            contents = f.read()
-        except UnicodeDecodeError, e:
-            # re-raise with more information
-            raise Exception('%s: %s' % (e, path))
+    fobj = codecs.open(path, "r", encoding=encoding)
+    try:
+        contents = fobj.read()
+    except UnicodeDecodeError, e:
+        # re-raise with more information
+        raise Exception('%s: %s' % (e, path))
+    finally:
+        fobj.close()
     return contents
 
 
